@@ -1,0 +1,12 @@
+namespace: default
+
+releases:
+  - name: chart-a
+    chart: ./chart-a
+    installed: true
+    needs:
+      - chart-b
+
+  - name: chart-b
+    chart: ./chart-b
+    installed: false

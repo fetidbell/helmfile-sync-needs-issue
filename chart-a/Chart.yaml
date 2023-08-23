@@ -1,0 +1,4 @@
+apiVersion: v2
+name: chart-a
+description: Chart which has chart-b as a dependency
+version: 1.0.0
